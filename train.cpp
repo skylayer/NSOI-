@@ -48,8 +48,6 @@ int dfs(int now) {
 
 int n,m;
 int main() {
-	freopen("train.in","r",stdin);
-	freopen("train.out","w",stdout);
 	scanf("%d%d",&n,&m);
 	memset(avi,-1,sizeof avi);
 	for(int i=1,f,t;i<=m;i++) {
